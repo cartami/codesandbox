@@ -4,10 +4,8 @@ import Floor from './components/Floor';
 
 function App() {
   return (
-    <div className="bg-white-100">
-      <section className="grid border-2 border-gray-100 m-1 p-5">
-      <Floor className="grid border-2 border-gray-100 m-1 p-5"/>
-      </section>
+    <div className="font-serif text-center h-full w-full">
+      <Floor headerClassName="text-base text-white text-center "/>
     </div>
   );
 }

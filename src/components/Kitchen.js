@@ -7,9 +7,9 @@ function Kitchen(props) {
     return (
         <>
             <div className={props.className}>
-                {props.title}
-                    <Oven className={props.className} title="Oven"/>
-                    <Sink className={props.className} title="Sink"/>
+                    <Oven title="Oven" className="bg-orange-600" headerClassName={props.headerClassName}/>
+                    <Sink title="Sink" className="bg-orange-900" headerClassName={props.headerClassName}/>
+                    <h1 className={props.headerClassName}>{props.title}</h1>
             </div>
         </>
     )
